@@ -375,18 +375,3 @@ A infraestrutura também possui uma zona direta (`cloudcraft.com.br`) e uma zona
 
 ---
 
-# 15. Próximas validações
-
-Como evolução do laboratório, novos testes podem ser adicionados para aprofundar a validação:
-
-* [ ] Testar consultas DNS diretamente na NS1;
-* [ ] Testar consultas DNS diretamente na NS2;
-* [ ] Validar registros `A`;
-* [ ] Validar registros `NS`;
-* [ ] Validar registros `SOA`;
-* [ ] Validar registros `PTR`;
-* [ ] Testar atualização da zona;
-* [ ] Confirmar atualização da zona secundária após alteração na primária;
-* [ ] Testar comportamento após reinicialização dos servidores;
-* [ ] Testar indisponibilidade temporária da NS1;
-* [ ] Documentar tempos de resposta DNS.
